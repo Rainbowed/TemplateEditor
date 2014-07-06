@@ -1,0 +1,141 @@
+
+.breadcrumb {
+    display: none;
+}
+
+.main_tabs {
+    margin: 0;
+    padding: 0;
+}
+
+#aceEditor {
+    width: 99%;
+    height: 574px;
+    display: none;
+}
+
+.main_tab_close {
+    display: block;
+    float: right;
+    color: red;
+    line-height: 100%;
+    margin-top: 1px;
+}
+
+.main_tab {
+    padding-right: 5px;
+    float: left;
+    margin-left: 1px;
+}
+
+.main_1 {
+    margin-top: 2px;
+}
+
+.main_1 li, .main_1 li.in_use {
+    cursor: pointer;
+    float: left;
+    background: #E6E6E6;
+    padding: 4px 10px;
+    font-size: 0.9em;
+    color: black;
+    margin: 0;
+    position: relative;
+}
+
+.main_1 li.in_use {
+    color: #FFF;
+    background: #25282C;
+}
+
+.left_pane {
+    overflow: hidden;
+    width: 300px;
+    float: left;
+    text-align: center
+}
+
+.right_pane {
+    width: calc(100% - 300px);
+    float: right;
+}
+
+.template_list {
+    min-height: 566px;
+    text-align: left;
+    overflow: auto;
+    position: relative;
+}
+
+.template_list li {
+    /* padding: 5px 7px;*/
+    font-weight: bold;
+}
+
+.template_list ul {
+    padding: 3px;
+}
+
+.template_list ul li {
+    font-size: 0.93em;
+    padding: 1px 5px 1px 10px;
+    border-bottom: 0px;
+    font-weight: normal;
+    background: none;
+    position: relative;
+}
+
+.template_list ul li:hover {
+    background-color: #E9E9E9;
+}
+
+.template_editor {
+    position: relative;
+    padding-left: 5px
+}
+
+.template_editor {
+    background: #D6E4F1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.search {
+    text-align: center;
+    width: calc(94% - 80px);
+    margin-left: 35px;
+}
+
+.save {
+    text-align: center;
+    float: right;
+    width: 44px;
+    margin-right: 5px;
+}
+
+.saved {
+    position: absolute;
+    top: 15px;
+    left: 45%;
+    padding: 11px 15px;
+    border-radius: 5px;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+.template_li span {
+    padding: 0;
+    cursor: pointer;
+}
+
+.template_parent {
+    overflow: visible;
+}
+
+.template_item {
+    display: none;
+    cursor: pointer;
+}
